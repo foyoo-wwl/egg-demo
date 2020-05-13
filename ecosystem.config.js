@@ -4,7 +4,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'root', // 用户，一般都是填写 root 权限最高
-      host: '47.99.134.126', // 服务器 IP 地址，大家可以看看自己的云服务器 IP 地址
+      host: '39.105.132.152', // 服务器 IP 地址，大家可以看看自己的云服务器 IP 地址
       ref: 'origin/master', // 获取代码库的分支，我这边就拉取主分支代码
       repo: 'git@github.com:foyoo-wwl/egg-demo.git', // 仓库地址
       path: '/workspace/egg-demo', // 项目在服务器的存放地址
